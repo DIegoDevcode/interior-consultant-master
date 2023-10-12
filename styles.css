@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #181719;
+}
+
+
+@media (min-width: 320px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn-interior {
+        background-color: #181719;
+        color: #ffffff;
+        width: 103px;
+        height: 31px;
+        top: 19px;
+        left: 12px;
+        border: 1px;
+        position: relative;
+
+    }
+
+    #hamburguesa {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        top: 19px;
+        right: 12px;
+        cursor: pointer;
+        background-color: #181719;
+        color: #ffffff;
+        border: none;
+    }
+
+    #hamburguesa span {
+        width: 24px;
+        height: 24px;
+    }
+
+    #hamburguesa:hover span {
+        fill: #ff0000;
+    }
+
+    #menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        display: none;
+        z-index: 999;
+    }
+
+    #menu li {
+        list-style: none;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #menu li a {
+        color: #000000;
+    }
+
+    #menu li a:hover {
+        color: #ff0000;
+    }
+}
