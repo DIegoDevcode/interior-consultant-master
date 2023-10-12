@@ -78,4 +78,64 @@ body {
     #menu li a:hover {
         color: #ff0000;
     }
+
+    main {
+        width: 100%;
+    }
+
+    main h1 {
+        width: 274px;
+        height: 46px;
+        padding-top: 40px;
+        padding-left: 23px;
+        color: #ffffff;
+    }
+
+    .p-info {
+        width: 250px;
+        height: 85px;
+        color: #ffffff;
+        padding-left: 23px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .p-more {
+        height: 17px;
+        padding-left: 23px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+        padding-top: 15px;
+        display: flex;
+    }
+
+    .fa-solid {
+        width: 124px;
+        height: 24px;
+        padding-left: 10px;
+        padding-top: 3px;
+        color: #ffffff;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo1 {
+        width: 351px;
+        height: 264.32px;
+        top: 323px;
+        padding-left: 12px;
+    }
 }
