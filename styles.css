@@ -130,12 +130,76 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
     .photo1 {
         width: 351px;
-        height: 264.32px;
+        height: 200.32px;
         top: 323px;
         padding-left: 12px;
+    }
+
+    .photo-container {
+        width: 270px;
+        height: 110px;
+        margin-left: 80px;
+        background-color: #181719;
+        display: flex;
+        z-index: 2;
+        position: absolute;
+        margin-top: -40px;
+        left: -20px;
+    }
+
+    .photo2 {
+        width: 36.59px;
+        height: 36.59px;
+        padding-top: 15.17px;
+        padding-left: 12.68px;
+    }
+
+    .info-person {
+        padding-top: 15px;
+        width: 142.83px;
+        height: 29.27px;
+        padding-left: 22.17px;
+
+    }
+
+    .name {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .cargo {
+        color: #828282;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .Designed {
+        color: #ffffff;
+        font-family: Lora;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 210px;
+        height: 45px;
+        left: -50px;
+        padding-top: 20px;
+        position: relative;
     }
 }
