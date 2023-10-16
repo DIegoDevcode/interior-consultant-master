@@ -238,12 +238,16 @@ body {
         margin-left: 7px;
 
     }
+
+    #duplicado {
+        color: #ffffff;
+        display: none;
+    }
 }
 
 @media (min-width: 530px) {
     nav {
         display: flex;
-        justify-content: space-between;
         width: 100%;
     }
 
@@ -257,5 +261,27 @@ body {
         border: 1px;
         position: relative;
         border: 1px solid white;
+    }
+
+    #hamburguesa {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        top: 19px;
+        right: 12px;
+        cursor: pointer;
+        background-color: #181719;
+        color: #ffffff;
+        border: none;
+        display: none;
+    }
+
+    .container-duplicado {
+        display: block;
+    }
+
+    #duplicado {
+        color: #ffffff;
+        display: flex;
     }
 }
