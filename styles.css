@@ -10,13 +10,16 @@ html {
 
 body {
     background: #181719;
+    width: 100%;
+    height: 100%;
 }
 
 
 @media (min-width: 320px) {
     nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
         width: 100%;
     }
 
@@ -30,6 +33,12 @@ body {
         border: 1px;
         position: relative;
         border: 1px solid white;
+        font-family: CrimsonPro;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
     }
 
     #cerrar {
@@ -60,6 +69,7 @@ body {
     #hamburguesa span {
         width: 24px;
         height: 24px;
+        text-align: right;
     }
 
     #hamburguesa:hover span {
@@ -96,6 +106,9 @@ body {
 
     main {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     main h1 {
@@ -104,6 +117,7 @@ body {
         padding-top: 40px;
         padding-left: 23px;
         color: #ffffff;
+        text-align: left;
     }
 
     .p-info {
@@ -155,7 +169,6 @@ body {
     }
 
     .photo1 {
-        width: 351px;
         height: 200.32px;
         top: 323px;
         padding-left: 12px;
@@ -167,10 +180,12 @@ body {
         margin-left: 80px;
         background-color: #181719;
         display: flex;
+        justify-content: center;
+        align-items: center;
         z-index: 2;
         position: absolute;
-        margin-top: -40px;
-        left: -20px;
+        margin-top: 196px;
+        margin-left: -20px;
     }
 
     .photo2 {
@@ -261,6 +276,12 @@ body {
         border: 1px;
         position: relative;
         border: 1px solid white;
+        font-family: Crimson Pro;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
     }
 
     #hamburguesa {
@@ -283,5 +304,30 @@ body {
     #duplicado {
         color: #ffffff;
         display: flex;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        height: 22px;
+    }
+
+    #duplicado li {
+        padding: 10px;
+        padding-top: 19px;
+    }
+
+    .general {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        padding-top: 150px;
+    }
+
+    .photo-container {
+        margin-top: 180px;
+        margin-left: 810px;
     }
 }
